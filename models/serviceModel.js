@@ -6,6 +6,6 @@ module.exports = conn.define('services', {
     name: Sequelize.STRING,
     description: Sequelize.STRING,
     cost: Sequelize.DOUBLE,
-    happy: Sequelize.SMALLINT,
+    endHappy: Sequelize.SMALLINT,
     image: Sequelize.STRING
 })
